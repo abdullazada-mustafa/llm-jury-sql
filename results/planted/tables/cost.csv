@@ -1,0 +1,8 @@
+ratio,cost_auto,cost_paper_recipe,cost_unanimous_by_cost,cost_best_single,auto_vs_recipe_lo,auto_vs_recipe_hi,auto_vs_unanimous_by_cost_lo,auto_vs_unanimous_by_cost_hi,auto_vs_human_all_lo,auto_vs_human_all_hi,cost_human_reviews_all,cost_accept_all,typical_choice
+1.0,0.1238,0.1588,0.1238,0.155,-0.0728,-0.0059,0.0,0.0,-0.8762,-0.8762,1.0,0.12,unanimous: codegemma:7b (5/5 folds)
+2.0,0.1751,0.1627,0.1589,0.1589,0.0049,0.0222,0.0087,0.026,-0.8523,-0.7889,1.0,0.24,confidence: codellama:13b + gpt-oss:20b + phi4:14b (3/5 folds)
+5.0,0.1708,0.1746,0.1708,0.1708,-0.0038,-0.0038,0.0,0.0,-0.8608,-0.7893,1.0,0.6,unanimous: gpt-oss:20b (5/5 folds)
+10.0,0.2025,0.1944,0.1906,0.1906,-0.0016,0.0284,0.0023,0.0323,-0.8483,-0.739,1.0,1.2,unanimous: gpt-oss:20b (3/5 folds)
+20.0,0.2535,0.2339,0.2301,0.2301,-0.0085,0.0494,-0.0047,0.0532,-0.8245,-0.6557,1.0,2.4,weighted: codellama:13b + gemma3:12b + gpt-oss:20b (3/5 folds)
+50.0,0.3132,0.3526,0.3887,0.3488,-0.1559,0.056,-0.1765,-0.002,-0.8055,-0.5404,1.0,6.0,weighted: codellama:13b + gemma3:12b + gpt-oss:20b + phi4:14b (2/5 folds)
+100.0,0.4574,0.5504,0.4433,0.5466,-0.3608,0.087,0.0044,0.0344,-0.763,-0.2888,1.0,12.0,confidence: gemma3:12b + gpt-oss:20b (2/5 folds)

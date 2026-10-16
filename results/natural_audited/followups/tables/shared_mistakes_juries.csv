@@ -1,0 +1,15 @@
+jury,rule,measure,observed,if_independent,ratio,ratio_lo,ratio_hi
+all five,unanimous,wrong passed,0.0482,0.0129,3.7492,0.7732,9.5415
+all five,unanimous,correct passed,0.8376,0.7943,1.0545,1.0179,1.105
+all five,majority,wrong passed,0.5181,0.5691,0.9103,0.8138,1.0275
+all five,majority,correct passed,0.9968,0.9994,0.9974,0.9906,1.001
+gemma3 + gpt-oss + phi4,unanimous,wrong passed,0.0482,0.0161,2.99,0.6107,7.6298
+gemma3 + gpt-oss + phi4,unanimous,correct passed,0.8471,0.8286,1.0223,1.0035,1.0475
+gemma3 + gpt-oss + phi4,majority,wrong passed,0.3012,0.2,1.5059,1.189,1.9824
+gemma3 + gpt-oss + phi4,majority,correct passed,0.9745,0.99,0.9843,0.9702,0.9971
+gpt-oss + phi4,unanimous,wrong passed,0.0843,0.0418,2.0174,1.1795,3.0804
+gpt-oss + phi4,unanimous,correct passed,0.914,0.9066,1.0082,0.9997,1.0194
+gemma3 + gpt-oss,unanimous,wrong passed,0.0723,0.0418,1.7292,0.7745,3.1559
+gemma3 + gpt-oss,unanimous,correct passed,0.8662,0.8587,1.0088,0.9974,1.0229
+gemma3 + phi4,unanimous,wrong passed,0.241,0.1486,1.6211,1.2575,2.1229
+gemma3 + phi4,unanimous,correct passed,0.8885,0.882,1.0074,0.9971,1.0238

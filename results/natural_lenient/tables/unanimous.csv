@@ -1,0 +1,32 @@
+committee,size,tpr,fpr,youden_j
+codegemma:7b,1,1.0,0.9888,0.0112
+codellama:13b,1,0.9578,0.8202,0.1376
+gemma3:12b,1,0.9188,0.4045,0.5143
+gpt-oss:20b,1,0.9448,0.1461,0.7987
+phi4:14b,1,0.9643,0.427,0.5373
+codegemma:7b + codellama:13b,2,0.9578,0.8202,0.1376
+codegemma:7b + gemma3:12b,2,0.9188,0.4045,0.5143
+codegemma:7b + gpt-oss:20b,2,0.9448,0.1461,0.7987
+codegemma:7b + phi4:14b,2,0.9643,0.427,0.5373
+codellama:13b + gemma3:12b,2,0.9026,0.3708,0.5318
+codellama:13b + gpt-oss:20b,2,0.9026,0.1236,0.779
+codellama:13b + phi4:14b,2,0.9286,0.382,0.5465
+gemma3:12b + gpt-oss:20b,2,0.8766,0.0899,0.7867
+gemma3:12b + phi4:14b,2,0.8929,0.2697,0.6232
+gpt-oss:20b + phi4:14b,2,0.9188,0.1236,0.7952
+codegemma:7b + codellama:13b + gemma3:12b,3,0.9026,0.3708,0.5318
+codegemma:7b + codellama:13b + gpt-oss:20b,3,0.9026,0.1236,0.779
+codegemma:7b + codellama:13b + phi4:14b,3,0.9286,0.382,0.5465
+codegemma:7b + gemma3:12b + gpt-oss:20b,3,0.8766,0.0899,0.7867
+codegemma:7b + gemma3:12b + phi4:14b,3,0.8929,0.2697,0.6232
+codegemma:7b + gpt-oss:20b + phi4:14b,3,0.9188,0.1236,0.7952
+codellama:13b + gemma3:12b + gpt-oss:20b,3,0.8604,0.0787,0.7817
+codellama:13b + gemma3:12b + phi4:14b,3,0.8831,0.2472,0.6359
+codellama:13b + gpt-oss:20b + phi4:14b,3,0.8831,0.1124,0.7708
+gemma3:12b + gpt-oss:20b + phi4:14b,3,0.8571,0.0674,0.7897
+codegemma:7b + codellama:13b + gemma3:12b + gpt-oss:20b,4,0.8604,0.0787,0.7817
+codegemma:7b + codellama:13b + gemma3:12b + phi4:14b,4,0.8831,0.2472,0.6359
+codegemma:7b + codellama:13b + gpt-oss:20b + phi4:14b,4,0.8831,0.1124,0.7708
+codegemma:7b + gemma3:12b + gpt-oss:20b + phi4:14b,4,0.8571,0.0674,0.7897
+codellama:13b + gemma3:12b + gpt-oss:20b + phi4:14b,4,0.8474,0.0674,0.78
+codegemma:7b + codellama:13b + gemma3:12b + gpt-oss:20b + phi4:14b,5,0.8474,0.0674,0.78

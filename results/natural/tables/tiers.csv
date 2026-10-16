@@ -1,0 +1,7 @@
+tier,n_correct,n_wrong,tpr_paper_recipe,fpr_paper_recipe,tpr_weighted_all,fpr_weighted_all,tpr_confidence_all,fpr_confidence_all
+aggregate_analysis,40,0,0.975,nan,0.975,nan,0.975,nan
+basic_retrieval,39,1,1.0,0.0,1.0,0.0,1.0,0.0
+hard_traps,117,82,0.8462,0.1341,0.7863,0.1098,0.7607,0.122
+having_filters,37,2,0.9189,0.0,0.9189,0.0,0.9189,0.0
+joins_grouping,37,2,1.0,1.0,1.0,1.0,1.0,1.0
+subqueries_advanced,34,6,0.8824,0.1667,0.8529,0.1667,0.8529,0.1667

@@ -1,0 +1,6 @@
+judge,correct_blocked_when_added,wrong_blocked_when_added
+codegemma:7b,0.0,0.0068
+codellama:13b,0.0722,0.2559
+gemma3:12b,0.0903,0.4604
+gpt-oss:20b,0.0205,0.923
+phi4:14b,0.0505,0.3571

@@ -1,0 +1,2 @@
+bug,n_correct,n_wrong,tpr_paper_recipe,fpr_paper_recipe,tpr_weighted_all,fpr_weighted_all,tpr_confidence_all,fpr_confidence_all
+natural,10,83,0.6,0.1084,0.6,0.0964,0.6,0.1807

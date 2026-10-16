@@ -1,0 +1,32 @@
+committee,size,tpr,fpr,youden_j,seconds_all_judges,seconds_stop_at_first_no,time_saved,pareto
+codegemma:7b,1,1.0,0.988,0.012,3.514,3.514,-0.0,True
+codellama:13b,1,0.9586,0.8072,0.1514,4.989,4.989,0.0,False
+gemma3:12b,1,0.914,0.3855,0.5285,5.279,5.279,0.0,False
+gpt-oss:20b,1,0.9395,0.1084,0.8311,6.939,6.939,-0.0,True
+phi4:14b,1,0.965,0.3855,0.5794,4.723,4.723,0.0,True
+codegemma:7b + codellama:13b,2,0.9586,0.8072,0.1514,8.503,8.2947,0.0245,False
+codegemma:7b + gemma3:12b,2,0.914,0.3855,0.5285,8.793,8.2659,0.0599,False
+codegemma:7b + gpt-oss:20b,2,0.9395,0.1084,0.8311,10.453,9.887,0.0541,False
+codegemma:7b + phi4:14b,2,0.965,0.3855,0.5794,8.237,7.8703,0.0445,False
+codellama:13b + gemma3:12b,2,0.8981,0.3494,0.5487,10.268,9.5196,0.0729,False
+codellama:13b + gpt-oss:20b,2,0.8981,0.0843,0.8138,11.928,11.1245,0.0674,False
+codellama:13b + phi4:14b,2,0.9299,0.3373,0.5926,9.712,9.1914,0.0536,False
+gemma3:12b + gpt-oss:20b,2,0.8662,0.0723,0.794,12.218,11.1771,0.0852,False
+gemma3:12b + phi4:14b,2,0.8885,0.241,0.6476,10.002,9.2935,0.0708,False
+gpt-oss:20b + phi4:14b,2,0.914,0.0843,0.8297,11.662,11.002,0.0566,False
+codegemma:7b + codellama:13b + gemma3:12b,3,0.8981,0.3494,0.5487,13.782,12.4431,0.0971,False
+codegemma:7b + codellama:13b + gpt-oss:20b,3,0.8981,0.0843,0.8138,15.442,13.9338,0.0977,False
+codegemma:7b + codellama:13b + phi4:14b,3,0.9299,0.3373,0.5926,13.226,12.2091,0.0769,False
+codegemma:7b + gemma3:12b + gpt-oss:20b,3,0.8662,0.0723,0.794,15.732,13.8817,0.1176,False
+codegemma:7b + gemma3:12b + phi4:14b,3,0.8885,0.241,0.6476,13.516,12.1444,0.1015,False
+codegemma:7b + gpt-oss:20b + phi4:14b,3,0.914,0.0843,0.8297,15.176,13.8597,0.0867,False
+codellama:13b + gemma3:12b + gpt-oss:20b,3,0.8503,0.0602,0.7901,17.207,15.0169,0.1273,False
+codellama:13b + gemma3:12b + phi4:14b,3,0.879,0.2169,0.6621,14.991,13.341,0.1101,False
+codellama:13b + gpt-oss:20b + phi4:14b,3,0.879,0.0723,0.8067,16.651,15.0045,0.0989,False
+gemma3:12b + gpt-oss:20b + phi4:14b,3,0.8471,0.0482,0.7989,16.941,14.8122,0.1257,False
+codegemma:7b + codellama:13b + gemma3:12b + gpt-oss:20b,4,0.8503,0.0602,0.7901,20.721,17.6677,0.1474,False
+codegemma:7b + codellama:13b + gemma3:12b + phi4:14b,4,0.879,0.2169,0.6621,18.505,16.1519,0.1272,False
+codegemma:7b + codellama:13b + gpt-oss:20b + phi4:14b,4,0.879,0.0723,0.8067,20.165,17.747,0.1199,False
+codegemma:7b + gemma3:12b + gpt-oss:20b + phi4:14b,4,0.8471,0.0482,0.7989,20.455,17.4467,0.1471,False
+codellama:13b + gemma3:12b + gpt-oss:20b + phi4:14b,4,0.8376,0.0482,0.7894,21.93,18.5526,0.154,False
+codegemma:7b + codellama:13b + gemma3:12b + gpt-oss:20b + phi4:14b,5,0.8376,0.0482,0.7894,25.444,21.1568,0.1685,False

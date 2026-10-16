@@ -1,0 +1,6 @@
+system,tpr,fpr,youden_j,d_j_vs_recipe,d_j_lo,d_j_hi,d_fpr_vs_recipe,d_fpr_lo,d_fpr_hi
+Paper recipe (best unanimous jury),0.9145,0.1505,0.7639,0.0,0.0,0.0,0.0,0.0,0.0
+"Unanimous, all five",0.852,0.086,0.766,0.002,-0.0629,0.086,-0.0645,-0.1324,-0.0137
+"Majority, all five (3 of 5)",0.9967,0.5699,0.4268,-0.3371,-0.4639,-0.2081,0.4194,0.2958,0.5397
+"Unanimous, gemma3 + gpt-oss + phi4",0.8618,0.086,0.7758,0.0119,-0.0513,0.0922,-0.0645,-0.1324,-0.0137
+"Majority, gemma3 + gpt-oss + phi4 (2 of 3)",0.977,0.3656,0.6114,-0.1526,-0.2922,-0.0324,0.2151,0.1046,0.347

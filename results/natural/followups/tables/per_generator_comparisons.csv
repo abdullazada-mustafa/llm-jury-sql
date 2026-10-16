@@ -1,0 +1,4 @@
+comparison,a,b,d_tpr,d_fpr,d_j,d_j_lo,d_j_hi,d_fpr_lo,d_fpr_hi
+per-writer choice vs one shared choice,pergen_inclusive,pooled_inclusive,0.0197,-0.0215,0.0412,-0.0139,0.098,-0.0652,0.0196
+writer kept off its own jury vs allowed,pooled_exclusive,pooled_inclusive,-0.0033,0.0108,-0.014,-0.0652,0.0362,-0.0362,0.0583
+"same, with per-writer choice",pergen_exclusive,pergen_inclusive,-0.0164,0.043,-0.0595,-0.1021,-0.019,0.0096,0.0841

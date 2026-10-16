@@ -1,0 +1,2 @@
+bug,n_wrong,codegemma:7b,codellama:13b,gemma3:12b,gpt-oss:20b,phi4:14b
+natural,93,0.9892,0.828,0.4194,0.1613,0.4516

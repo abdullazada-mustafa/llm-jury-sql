@@ -1,0 +1,7 @@
+measure,effect,points,lo,hi
+wrong queries passed,own,0.2207,0.1151,0.3197
+wrong queries passed,also_failed,0.1803,0.0565,0.3043
+wrong queries passed,own_minus_also_failed,0.0404,-0.0533,0.1296
+correct queries passed,own,-0.0006,-0.0166,0.0142
+correct queries passed,also_failed,-0.021,-0.0878,0.0376
+correct queries passed,own_minus_also_failed,0.0204,-0.0408,0.0918

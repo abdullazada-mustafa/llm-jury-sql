@@ -1,0 +1,6 @@
+judge,tpr,fpr,youden_j,unreadable,conf_when_right,conf_when_wrong,mean_latency_s,pattern
+codegemma:7b,1.0,0.9888,0.0112,0.0,0.9994,1.0,3.6698,rubber stamp
+codellama:13b,0.9578,0.8202,0.1376,0.0,0.9543,0.9314,5.1061,
+gemma3:12b,0.9188,0.4045,0.5143,0.0,0.9653,0.9172,5.4696,
+gpt-oss:20b,0.9448,0.1461,0.7987,0.0,0.9563,0.9017,8.3417,
+phi4:14b,0.9643,0.427,0.5373,0.0,0.9829,0.9459,4.9078,

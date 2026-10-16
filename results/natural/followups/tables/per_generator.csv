@@ -1,0 +1,7 @@
+writer,n_wrong,pooled_inclusive_tpr,pooled_inclusive_fpr,pooled_inclusive_j,pooled_exclusive_tpr,pooled_exclusive_fpr,pooled_exclusive_j,pergen_inclusive_tpr,pergen_inclusive_fpr,pergen_inclusive_j,pergen_exclusive_tpr,pergen_exclusive_fpr,pergen_exclusive_j
+codegemma:7b,21,0.9167,0.1429,0.7738,0.8667,0.1429,0.7238,0.9167,0.1905,0.7262,0.8833,0.1905,0.6929
+codellama:13b,30,0.8936,0.0667,0.827,0.8936,0.0667,0.827,0.9149,0.0667,0.8482,0.9149,0.0667,0.8482
+gemma3:12b,17,0.8644,0.0,0.8644,0.8814,0.0,0.8814,0.9153,0.0,0.9153,0.9153,0.0,0.9153
+gpt-oss:20b,10,0.9306,0.5,0.4306,0.9167,0.6,0.3167,0.9583,0.3,0.6583,0.9167,0.7,0.2167
+phi4:14b,15,0.9545,0.2667,0.6879,0.9848,0.2667,0.7182,0.9545,0.2,0.7545,0.9545,0.2,0.7545
+(all writers),93,0.9145,0.1505,0.7639,0.9112,0.1613,0.7499,0.9342,0.129,0.8052,0.9178,0.172,0.7457

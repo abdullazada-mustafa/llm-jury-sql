@@ -1,0 +1,6 @@
+judge,own_wrong,passes_own_wrong,others_pass_same
+codegemma:7b,21,1.0,0.4762
+codellama:13b,30,0.8667,0.375
+gemma3:12b,17,0.4118,0.5588
+gpt-oss:20b,10,0.5,0.85
+phi4:14b,15,0.6667,0.65
