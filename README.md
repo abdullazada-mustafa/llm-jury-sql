@@ -386,7 +386,7 @@ Weighting LLM judges by their reliability is not new in general. Balasubramanian
 
 ## Acknowledgements
 
-The study design follows Ullah and Serwadda (2026), and all credit for the original framework belongs to them. Dawid and Skene, "Maximum Likelihood Estimation of Observer Error-Rates Using the EM Algorithm," *Applied Statistics*, 1979.
+The study design follows Muhammad Aziz Ullah and Abdul Serwadda (2026), and all credit for the original framework belongs to them. The Dawid-Skene method used in section 1 comes from A. P. Dawid and A. M. Skene, “Maximum Likelihood Estimation of Observer Error-Rates Using the EM Algorithm,” Applied Statistics, 1979.
 
 ## License
 
